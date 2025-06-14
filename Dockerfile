@@ -9,6 +9,6 @@ RUN apt-get update && apt-get install -y \
 
  COPY feed.py /usr/bin/feed.py
 
- COPY  enrtypoint.sh / enrtypoint.sh
+ COPY  entrypoint.sh / entrypoint.sh
 
  ENTRYPOINT ["/enrtypoint.sh"]
